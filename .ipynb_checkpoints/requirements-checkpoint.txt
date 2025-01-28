@@ -1,0 +1,6 @@
+wikipedia-api==0.5.8
+pytube==15.0.0
+pyttsx3==2.90
+SpeechRecognition==3.9.0
+python-dotenv==1.0.0
+vlc==3.0.0

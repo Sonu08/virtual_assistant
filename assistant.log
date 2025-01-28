@@ -1,0 +1,11 @@
+2025-01-28 21:50:21,144 - ERROR - Error recognizing voice
+Traceback (most recent call last):
+  File "C:\Users\Dumbs\AppData\Local\Temp\ipykernel_18420\2151081187.py", line 38, in listen
+    command = recognizer.recognize_google(audio, language="en-US")
+  File "C:\ProgramData\Anaconda3\lib\site-packages\speech_recognition\recognizers\google.py", line 262, in recognize_legacy
+    return output_parser.parse(response_text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\speech_recognition\recognizers\google.py", line 134, in parse
+    actual_result = self.convert_to_result(response_text)
+  File "C:\ProgramData\Anaconda3\lib\site-packages\speech_recognition\recognizers\google.py", line 183, in convert_to_result
+    raise UnknownValueError()
+speech_recognition.exceptions.UnknownValueError
